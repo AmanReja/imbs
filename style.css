@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.header-container{
+  display: flex;
+  height: 54px;
+  background-color: #262626;
+  justify-content: space-between;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.logo-container{
+  height: 54px;
+    width: 152px;
+}
+.logo{
+  height: 70px;
+    width: 175px;
+    position: relative;
+    top: -9px;
+    bottom: 0px;
+    left: 31px;
+    right: 14px;
+} .logo-button{
+  background-color: #82b440;
+  color: #fff;
+  font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 36px;
+    width: 136px;
+    left: -20px;
+    position: relative;
+}
+
+
