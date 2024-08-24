@@ -3,6 +3,9 @@
   box-sizing: border-box;
   padding: 0;
 }
+body,html{
+  overflow-x: hidden;
+}
 .header-container{
   display: flex;
   height: 54px;
@@ -10,6 +13,8 @@
   justify-content: space-between;
   align-items: center;
   /* overflow: hidden; */
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .logo-container{
@@ -48,7 +53,7 @@
   width: 100%;
   background-color: plum;
   height: 600px;
-  position: absolute;
+  /* position: absolute; */
  
 }
 .matarial-container{
@@ -56,7 +61,7 @@
   height: 60px;
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  padding-top: 20px;
 
 }
 .hero-banner img{
