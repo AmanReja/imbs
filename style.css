@@ -62,15 +62,17 @@ body,html{
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
+  flex-wrap: wrap;
 
 }
 .hero-banner img{
   width: 350px;
   height: 350px;
-  position: absolute;
-  left: 917px;
-    top: 191px;
+  position:relative;
+  /* left: 917px;
+    top: 191px; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: block;
 }
 .nav-container{
   display: flex;
@@ -99,6 +101,7 @@ body,html{
     cursor: pointer;
     height: 36px;
     width: 136px;
+    transition: all 0.5s;
 }
 .brand-title h1{
   font-size: 40px;
@@ -111,11 +114,21 @@ body,html{
   column-gap: 23px;
   height: 414px;
   position: relative;
-  top: 70px;
-    left: 222px;
+  /* top: 70px;
+    left: 222px; */
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
 }
-
-
+.banner-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  flex-wrap:wrap-reverse;
+}
+.contact:hover{
+  background-color: transparent;
+  border: 1px solid black;
+}
