@@ -51,7 +51,7 @@ body,html{
 }
 .hero-banner{
   width: 100%;
-  background-color: plum;
+  background-color:#141212;
   height: 600px;
   /* position: absolute; */
  
@@ -130,5 +130,11 @@ body,html{
 }
 .contact:hover{
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid #fff;
+}
+.hedline-container h1,p{
+  color: #fff;
+}
+.stardiv{
+  color: #fff;
 }
