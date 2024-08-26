@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  color: black;
 }
 body,html{
   overflow-x: hidden;
@@ -137,4 +138,128 @@ body,html{
 }
 .stardiv{
   color: #fff;
+}
+
+.middle-container{
+  height: 600px;
+  width: 100%;
+}
+
+.middel{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+}
+.middel p{
+color:black;
+font-size: larger;
+padding: 96px 21px;
+
+
+}
+.middel h1{
+  font-size: 60px;
+  padding: 59px 102px;
+  
+}
+.inline-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+
+}
+.inline-container p{
+  color: black;
+  text-align: left;
+  width: 300px;
+  padding-left: 12px;
+  position: relative;
+  right: 30px;
+  font-size: large;
+
+}
+#email{
+  background: url(/smallbanners/abstract-luxury-soft-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg);
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+#social{
+  background: url(/smallbanners/abstract-solid-shining-yellow-gradient-studio-wall-room-background.jpg);
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+#arrow{
+  background: url(/smallbanners/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.email-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  gap: 60px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.emailimg{
+ position: relative;
+ left: 127px;
+    top: 39px;
+}
+.solution{
+  font-size: 55px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.inline-button{
+  background-color: #82b440;
+  color: #fff;
+  font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 36px;
+    width: 140px;
+    transition: all 0.5s;
+    bottom: 20px;
+    position: relative;
+   right: 100px;
+}
+
+.inline-button:hover{
+  background-color: #262626;
+  transform: scale(1.2);
+}
+
+.email-container h3{
+  font-size: 25px;
 }
