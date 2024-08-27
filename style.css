@@ -281,5 +281,12 @@ padding: 96px 21px;
 .brands-container img:hover{
   filter: grayscale(0);
 }
-
+.mid-banner{
+  background: url(/banner/bg-section-handrawn-2a.jpg);
+  height: 1000px;
+  width: 100%;
+  object-fit: contain;
+  /* background-size: cover; */
+  
+}
 
