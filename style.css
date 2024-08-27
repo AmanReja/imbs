@@ -263,3 +263,23 @@ padding: 96px 21px;
 .email-container h3{
   font-size: 25px;
 }
+.brands-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin-top: 12px; */
+}
+.brands-container img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+ filter: grayscale(100%);
+ transition: all 0.5s;
+
+}
+.brands-container img:hover{
+  filter: grayscale(0);
+}
+
+
