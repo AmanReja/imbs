@@ -11,7 +11,7 @@ body,html{
   display: flex;
   height: 54px;
   background-color: #262626;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   /* overflow: hidden; */
   flex-wrap: wrap;
@@ -164,7 +164,7 @@ padding: 96px 21px;
   
 }
 .inline-container{
-  height: 2000px;
+  height: 900px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -186,31 +186,34 @@ padding: 96px 21px;
 
 }
 #email{
-  background: url(/smallbanners/abstract-luxury-soft-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg);
+  background: url(/smallpng/tab.png);
+  background-color:#fc9167;
   width: 417px;
   height: 220px;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
+  border-radius:50px 50px  0 0px;
 }
 #social{
-  background: url(/smallbanners/abstract-solid-shining-yellow-gradient-studio-wall-room-background.jpg);
+  background: url(/smallpng/tab.png);
+  background-color: #FCDB67;
   width: 417px;
   height: 220px;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
+  border-radius:50px 50px  0 0px;
 }
 #arrow{
-  background: url(/smallbanners/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+  background: url(/smallpng/tab.png);
+  background-color: #6788fc;
   width: 417px;
   height: 220px;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 50px 50px  0 0px;
 }
 .email-container{
   display: flex;
@@ -218,7 +221,7 @@ padding: 96px 21px;
   justify-content:space-between;
   gap: 60px;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 50px 50px  0 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .emailimg{
@@ -231,6 +234,15 @@ padding: 96px 21px;
   position: relative;
   width: 100%;
   text-align: center;
+}
+.solution-png{
+  display: flex;
+  width: 100px;
+  height: 80px;
+  gap: 300px;
+  justify-content: space-between;
+  position: relative;
+    left: 533px;
 }
 .inline-button{
   background-color: #82b440;
@@ -283,10 +295,12 @@ padding: 96px 21px;
 }
 .mid-banner{
   background: url(/banner/bg-section-handrawn-2a.jpg);
-  height: 1000px;
+  height: 600px;
   width: 100%;
   object-fit: contain;
-  /* background-size: cover; */
+  background-size: cover;
+  position: relative;
+  
   
 }
 
